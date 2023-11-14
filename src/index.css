@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn {
+    @apply inline-block
+  }
+  .startflex{
+    @apply flex items-start justify-center
+  }
+  .box{
+    @apply xl:max-w-[1280px] w-full 
+  }
+  input[type="datetime-local"]{
+    @apply outline-none border-none
+  }
+}
